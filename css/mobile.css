@@ -1,0 +1,56 @@
+/* Utility Classes */
+.display-1 {
+	font-size: 2.5rem;
+}
+
+.display-2 {
+	font-size: 1.9rem;
+}
+
+.p-1 {
+	padding: 50px 0;
+}
+
+.pb-1 {
+	padding-bottom: 10px;
+}
+
+.w-70,
+.w-30 {
+	width: 100%;
+}
+
+.flex {
+	flex-direction: column;
+}
+
+/* Header */
+.mainheader {
+	height: 100%;
+}
+
+/* Navbar */
+#navbar {
+	height: 100%;
+	padding: 20px 0;
+}
+
+#navbar .container {
+	flex-direction: column;
+}
+
+/* About */
+#about img {
+	padding-left: 0;
+	padding-top: 20px;
+}
+
+/* Extract */
+#extract img {
+	padding: 20px 0;
+}
+
+#extract .txt-large {
+	text-transform: uppercase;
+	font-weight: 500;
+}

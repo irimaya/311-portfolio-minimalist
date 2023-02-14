@@ -8,17 +8,16 @@
 }
 
 /* Main Styling */
-body,
-html {
+html,
+body {
 	font-family: 'Poppins', sans-serif;
 	color: #1f2038;
-	font-size: 16px;
-	line-height: 1.5;
 }
 
 h1 {
 	font-size: 2.5rem;
 }
+
 h2 {
 	font-size: 2rem;
 	font-weight: 500;
@@ -27,10 +26,6 @@ h2 {
 h1,
 h2 {
 	margin-bottom: 15px;
-}
-
-ul {
-	list-style: none;
 }
 
 img {
@@ -62,10 +57,6 @@ a {
 	text-align: center;
 }
 
-.small {
-	font-size: 12px;
-}
-
 .display-1 {
 	font-size: 3rem;
 	font-weight: 300;
@@ -80,7 +71,6 @@ a {
 	display: inline-block;
 	font-size: 15px;
 	padding: 12px 45px;
-	cursor: pointer;
 	font-weight: bold;
 	letter-spacing: 1px;
 	border-radius: 4px;
@@ -106,11 +96,14 @@ a {
 
 .w-70 {
 	width: 70%;
-	margin: 0 auto;
 }
 
 .w-30 {
 	width: 30%;
+}
+
+.w-70,
+.w-30 {
 	margin: 0 auto;
 }
 
@@ -119,7 +112,7 @@ a {
 }
 
 .bk-half-reverse {
-	background: linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #f2f2f2 50%, #f2f2f2 100%);
+	background: linear-gradient(to top, #f2f2f2 0%, #f2f2f2 50%, #ffffff 50%, #ffffff 100%);
 }
 
 .flex {
@@ -165,6 +158,7 @@ a {
 
 #navbar ul li {
 	margin-left: 20px;
+	text-decoration: none;
 }
 
 /* Showcase */
@@ -172,10 +166,6 @@ a {
 	height: 350px;
 	border-radius: 50%;
 	border: 8px solid #fff;
-}
-
-#showcase a {
-	margin-top: 20px;
 }
 
 /* About */
@@ -203,9 +193,12 @@ a {
 	display: flex;
 }
 
+#social img {
+	margin: 10px;
+}
+
 /* Footer */
 #mainfooter {
 	background: #1f2038;
-	text-align: center;
 	padding: 30px;
 }

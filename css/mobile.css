@@ -29,28 +29,7 @@
 	height: 100%;
 }
 
-/* Navbar */
-#navbar {
-	height: 100%;
-	padding: 20px 0;
-}
-
-#navbar .container {
-	flex-direction: column;
-}
-
 /* About */
 #about img {
 	padding-left: 0;
-	padding-top: 20px;
-}
-
-/* Extract */
-#extract img {
-	padding: 20px 0;
-}
-
-#extract .txt-large {
-	text-transform: uppercase;
-	font-weight: 500;
 }
